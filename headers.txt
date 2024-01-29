@@ -1,0 +1,52 @@
+Request Headers
+
+User-Agent: PostmanRuntime/7.36.1
+    --> User-Agent set by client to indicate information that pertains to the client (got definition from 
+    Video posted on Canvas because it is shorter than what I found on Google).
+Accept: */*
+    --> Accept this is what the client accepts, in this case would be all (same definition situation as above).
+Postman-Token: f9aa5b7b-94ae-4506-b5c8-03db25ecb696
+    --> Postman-Token is an access token that enables a client to make calls to an API.
+Host: www.googleapis.com
+    --> Host is the domain name or IP address of the host that serves the API.
+Accept-Encoding: gzip, deflate, br
+    --> Accept-Encoding indicates the content encoding (compression algorithm) that the client understands.
+Connection: keep-alive
+    --> Connection: keep-alive is also called HTTP persistent connection and the idea is to use a single TCP connection
+    to send and receive multiple HTTP requests and responses.
+
+Response Headers
+
+Content-Type: application/json; charset=UTF-8
+    --> Content-Type indicates the format in which the data will be sent to or received by HTTP methods.
+Vary: Origin
+    --> Vary: Origin indicates what sourcess can access the requested resource.
+Vary: X-Origin
+    --> Vary: X-Origin is the Same as above but the X indicates non-standard.
+Vary: Referer
+    --> Vary: Referer indicates an absolute or partial address from which the resource has been requested.
+Content-Encoding: gzip
+    --> Content-Encoding used to compress the message data without losing information about the origin media type.
+Date: Mon, 29 Jan 2024 04:21:47 GMT
+    --> Date indicates the date and time when the message was sent.
+Server: ESF
+    --> Server indicaets the software used by the origin server that handled the request.
+Cache-Control: private
+    --> Cache-Control indicates browser caching policies in both client requests and server responses.
+X-XSS-Protection: 0
+    --> X-XSS-Protection is a feature of Internet Explorer, Google Chrome, and Safari that stops pages from loading
+    when reflected cross-site scripting attacks are detected.
+X-Frame-Options: SAMEORIGIN
+    --> X-Frame-Options indicates whether a browser should be allowed to render a page in a frame, iframe, embed, or object.
+X-Content-Type-Options: nosniff
+    --> X-Content-Type-Options is a marker used by the server to indicate that the MIME type advertised in Content-Type Headers
+    should be followed and not changed.
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+    --> Alt-Svc allows a server to indicate that another network location can be treated as authoritative for origin when making future requests.
+Transfer-Encoding: chunked
+    --> Transfer-Encoding indicates a signal to the client that the data will be received in a series of chunks instead of single blocks.
+
+
+
+Please NOTE: I have used Google.com, as instructed, to do my research for the terminology above and I have used the definitions found almost exactly but
+manually typed.
